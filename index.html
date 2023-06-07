@@ -36,9 +36,11 @@
         border-right: solid black;
     }
 
-    h2{
+    h2:hover{
         background-color: rgb(209, 207, 207);
         border-radius: 4px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 35px;
 
     }
 
@@ -61,11 +63,12 @@
     .details{
         font-size: medium;
         display: inline-block;
-        background-color: rgb(255, 255, 255);
+        /* background-color: rgb(255, 255, 255); */
         border-radius: 5px;
+        
         /* border-left: solid black; */
         /* border-right: solid black; */
-        border-bottom: solid black ;
+        /* border-bottom: solid black ; */
     }
 
     #pdetails{
@@ -76,6 +79,17 @@
     
     .All{
         width: 1100px;
+    }
+
+    .insta:hover{
+        border-radius: 12px;
+    }
+    .fa{
+        margin-left: 100px;
+    }
+
+    #objective:hover{
+        background-color:whitesmoke;
     }
 
 </style>
@@ -90,39 +104,47 @@
         <h1>
             Rounit <br>Web Devloper <hr> 
             <div class="details">
-                &#9742; 7667934439
+               <a href=""></a>
             </div>
     
             <div class="details">
-                &#8982; Faridabad
+                <a href="https://shorturl.at/mxGPY"><i class="fa fa-map" style="font-size:48px;color:rgb(21, 181, 50)"></i></a>
             </div>
     
             <div class="details">
-                &#128231; rounitraj747@gmail.com
+                <!-- &#128231; rounitraj747@gmail.com -->
+                <a href="https://shorturl.at/ltNP0"><i class="fa fa-google" style="font-size:48px;color:rgb(50, 62, 226)"></i></a>
             </div>
     
-            <div class="details">
-                <a href="#"><i class="fa fa-instagram" style="font-size:48px;color:rgb(226, 50, 153)"></i></a> 
+            <div class="details insta">
+                <a href="https://instagram.com/rounit_002"><i class="fa fa-instagram" style="font-size:48px;color:rgb(226, 50, 100)"></i></a> 
             </div>
-    
+
+            <!-- <a href="https://www.Youtube.com/"><img src="https://www.tutorialspoint.com/assets/questions/media/426142-1668760872.png" style="width:50px;height:50px;"></a></p> -->
+
         </h1>
         <div class="content">
     
         <div style="margin-left: 2%;">
-    
+
+        <div id="objective">
             <h2> <u> Objective: </u> </h2>
     
         <p style="font-family: cursive;">
             "To apply my technical abilities, creativity, and love for web development in a fast-paced <br>environment where I can help to create creative and user-friendly web solutions.<br> My goal is to work with a talented team, learn and grow constantly, and produce <br>high-quality web apps that improve the user experience and generate corporate success."
         </p>
+       </div>
     
+        <div id="Education">
         <h2><u>Education:</u></h2>
         <ul>
             <li>Class 10th (B.S.E.B)</li>
             <li>Class 12th (B.S.E.B)</li>
             <li>BCA in Data Analytic (Pursuing)</li>
         </ul>
+       </div>
     
+       <div id="experience">
         <h2>
             <u>Work Experience:</u>
         </h2>
@@ -130,7 +152,9 @@
         <ul>
             <li> TimeWatch Infocom Pvt. Ltd. (Working) </li>
         </ul>
+      </div> 
     
+       <div id="Skills">
         <h2>
             <u>Skills:</u>
         </h2>
@@ -142,7 +166,9 @@
             <li>CSS (Beginner)</li>
             <li>MS SQL</li>
         </ol>
+    </div>
     
+        <div id="cskill">
         <h2><u>Computer Skills</u></h2>
     
         <ul>
@@ -152,7 +178,9 @@
             <li>Premier Pro</li>
             <li>Network</li>
         </ul>
+    </div>
     
+        <div id="Personal">
         <h2><u>Personal Details :</u></h2><hr>
         <table id="pdetails">
             <tr>
@@ -176,6 +204,7 @@
                 <td>Learning New Things</td>
             </tr>
         </table>
+    </div>
     
         <h2><u>My Projects:</u></h2>
         <a style="width: 80px;" href="./Css-Grid.html">Interception</a><br>
